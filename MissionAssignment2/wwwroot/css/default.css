@@ -1,0 +1,71 @@
+﻿body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1;
+    background: url(/img/background.png) repeat;
+}
+
+h1 {
+    color: burlywood;
+    padding-top: 75px;
+    padding-left: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+label {
+    font-size: 20px;
+    color: beige;
+    width: 150px;
+    display: inline-block;
+}
+
+textarea {
+    font-size: 20px;
+    color: darkblue;
+}
+
+li {
+    list-style-type: none;
+}
+
+.Outcome {
+    color: bisque;
+    padding-left: 50px;
+}
+
+.JobList {
+    width: 500px;
+    color: beige;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.GCalculator {
+    position: absolute;
+    right: 150px;
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: beige;
+    border: 1px solid #c3c3c3;
+}
+
+
+
+#Calculate {
+    position: absolute;
+    right: 150px;
+    width: 200px;
+    height: 120px;
+    border: 3px solid green;
+}
+
+#picLogan {
+    left: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
