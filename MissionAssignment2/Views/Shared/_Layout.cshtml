@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <meta charset="utf-8" />
+    <title>@ViewData["title"]</title>
+
+    <link rel="shortcut icon" href="img/liv.ico" type="image/x-icon">
+
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+
+</head>
+<body>
+    <h1>Logan Kim's 2020 Winter</h1>
+    <br /><br />
+
+    <nav>
+        <a asp-controller="Logan" asp-action="Index">Home</a>
+        <a asp-controller="Logan" asp-action="GradeCalculator">Grade Calculator</a>
+    </nav>
+
+    <br /><br />
+
+
+    <div>
+        @RenderBody()
+    </div>
+
+    <br /><br /><br /><br />
+
+
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="~/lib/jquery/jquery-3.6.0.min.js"></script>
+
+</body>
+</html>
