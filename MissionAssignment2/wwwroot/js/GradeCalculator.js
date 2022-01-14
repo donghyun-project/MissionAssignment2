@@ -1,8 +1,6 @@
 ﻿// Author: Logan Kim
 // Mission #2 Assignment
 
-var GradeLetter = "";
-var GradeScore = "";
 // Calculate Final Grade and Show through alert
 $("#Calculate").click(function () {
     GradeScore = Math.round((($("#txtAssignments").val() * 0.55) +
@@ -40,9 +38,9 @@ $("#Calculate").click(function () {
         GradeLetter = "E";
     } 
 
-    alert("Final Grade: " +
-        GradeScore +
-        "\nLetter Grade: " + GradeLetter);
+    //alert("Final Grade: " +
+    //    GradeScore +
+    //    "\nLetter Grade: " + GradeLetter);
 
     $("#GradeScore").innerHTML = GradeScore;
     $("#GradeLetter").innerHTML = GradeLetter;
