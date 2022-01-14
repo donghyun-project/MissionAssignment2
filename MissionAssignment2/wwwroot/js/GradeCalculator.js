@@ -38,11 +38,12 @@ $("#Calculate").click(function () {
         GradeLetter = "E";
     } 
 
-    //alert("Final Grade: " +
-    //    GradeScore +
-    //    "\nLetter Grade: " + GradeLetter);
+    // Alerts Final Grade and Letter Grade
+    alert("Final Grade: " +
+        GradeScore +
+        "\nLetter Grade: " + GradeLetter);
 
-    $("#GradeScore").innerHTML = GradeScore;
-    $("#GradeLetter").innerHTML = GradeLetter;
+    //$("#GradeScore").innerHTML = GradeScore;
+    //$("#GradeLetter").innerHTML = GradeLetter;
 
 })
